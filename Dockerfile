@@ -3,7 +3,7 @@ MAINTAINER Jens Viebig jsurf@gmx.de
 
 RUN [ "cross-build-start" ]
 
-ENV TZ Europe/Berlin
+ENV TZ America/Los_Angeles
 
 RUN apt-get update \
     && apt-get install -y ser2net \
